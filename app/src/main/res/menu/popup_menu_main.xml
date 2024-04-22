@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_edit_profile"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Edit Your Profile"/>
+
+    <item
+        android:id="@+id/nav_wishlist"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="See Your Wishlist"/>
+
+    <item
+        android:id="@+id/nav_tracking"
+        android:icon="@drawable/baseline_location_pin_24"
+        android:title="Tracking"/>
+
+    <item
+        android:id="@+id/nav_customer_service"
+        android:icon="@drawable/baseline_message_24"
+        android:title="Get Help"/>
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/baseline_access_time_24"
+        android:title="See Your History"/>
+</menu>

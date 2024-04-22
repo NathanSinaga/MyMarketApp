@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6E9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:text="Borneo"
+                    android:textSize="50sp">
+
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/profile_picture"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:gravity="right"
+                    android:src="@drawable/icon_account"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:hint="Cari di Borneo..."
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="22sp"
+                android:background="@drawable/rounded_corner"
+                android:padding="16dp"
+                android:inputType="text"
+                android:id="@+id/search_input"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="278dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left"
+                    android:text="Recomended :"
+                    android:textColor="@color/black"
+                    android:textSize="25sp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/cart"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="right"
+                    android:src="@drawable/icon_cart" />
+
+                <ImageView
+                    android:id="@+id/bell"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="right"
+                    android:src="@drawable/icon_bell" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
